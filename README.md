@@ -15,7 +15,7 @@ Utility application that helps developer to get a customized listView which have
 
 **Demo of the listView**<br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/PullToRefreshSwipeMenuDemo.gif) <br />
-**Screenshots of the listView **<br />
+**Screenshots of the listView**<br />
 **1-PullToRefresh**<br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen1.png) <br />
 **2-Swipe Menu** <br />
