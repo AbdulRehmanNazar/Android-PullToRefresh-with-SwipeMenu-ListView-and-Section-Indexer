@@ -3,7 +3,7 @@ package com.enode.solutions.swipemu.pulltorefresh.sectionindexer.adapter;
 import java.util.Arrays;
 import java.util.List;
 
-import com.enode.solutions.swipemu.pulltorefresh.sectionindexer.CustomListView.PinnedHeaderPullToRefreshSwipeMenuListView;
+import com.enode.solutions.swipemu.pulltorefresh.sectionindexer.CustomListView.PullToRefreshSwipeMenuListView;
 import com.enode.solutions.swipemu.pulltorefresh.sectionindexer.R;
 
 import android.content.Context;
@@ -17,7 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
 
-public class PinnedHeaderSectionAdapter extends BaseAdapter implements SectionIndexer, PinnedHeaderPullToRefreshSwipeMenuListView.PinnedHeaderAdapter, OnScrollListener
+public class PinnedHeaderSectionAdapter extends BaseAdapter implements SectionIndexer, PullToRefreshSwipeMenuListView.PinnedHeaderAdapter, OnScrollListener
 {
 	private int mLocationPosition = -1;
 	private List<String> mDatas;
@@ -84,9 +84,9 @@ public class PinnedHeaderSectionAdapter extends BaseAdapter implements SectionIn
 	@Override
 	public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount)
 	{
-		if (view instanceof PinnedHeaderPullToRefreshSwipeMenuListView)
+		if (view instanceof PullToRefreshSwipeMenuListView)
 		{
-			((PinnedHeaderPullToRefreshSwipeMenuListView) view).configureHeaderView(firstVisibleItem);
+			((PullToRefreshSwipeMenuListView) view).configurePinnedHeaderView(firstVisibleItem);
 		}
 	}
 
@@ -144,6 +144,31 @@ public class PinnedHeaderSectionAdapter extends BaseAdapter implements SectionIn
 		}
 		int index = Arrays.binarySearch(mFriendsPositions.toArray(), position);
 		return index >= 0 ? index : -index - 2;
+	}
+
+	@Override
+	public int getItemViewType(int position)
+	{
+		int returnViewType = 0;
+		if (mDatas.size() > 0)
+		{
+			if (position % 2 == 0)
+			{
+				returnViewType = 0;
+			}
+			else
+			{
+				returnViewType = 1;
+			}
+		}
+		return returnViewType;
+	}
+
+	@Override
+	public int getViewTypeCount()
+	{
+		// menu type count
+		return 2;
 	}
 
 }

@@ -55,7 +55,7 @@ public class SideBladeView extends View
 		{
 			paint.setColor(Color.BLUE);
 			// paint.setTypeface(Typeface.DEFAULT_BOLD);
-			paint.setTextSize(20);
+			paint.setTextSize(25);
 			paint.setFakeBoldText(true);
 			paint.setAntiAlias(true);
 			if (i == choose)

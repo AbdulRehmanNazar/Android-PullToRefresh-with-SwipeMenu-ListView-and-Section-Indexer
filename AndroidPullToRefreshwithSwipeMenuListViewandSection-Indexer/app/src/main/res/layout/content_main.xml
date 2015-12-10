@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white">
 
-    <com.enode.solutions.swipemu.pulltorefresh.sectionindexer.CustomListView.PinnedHeaderPullToRefreshSwipeMenuListView
+    <com.enode.solutions.swipemu.pulltorefresh.sectionindexer.CustomListView.PullToRefreshSwipeMenuListView
         android:id="@+id/friends_display"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
