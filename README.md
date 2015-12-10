@@ -13,7 +13,7 @@ Here is youtube Video Demo<br />
 [![](http://img.youtube.com/vi/lTmH5QqE3BM/0.jpg)](https://www.youtube.com/watch?v=lTmH5QqE3BM)
 
 Here are the demo of the listView<br />
-![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/AndroidPullToRefreshwithSwipeMenuListViewandSection-Indexer/raw/PullToRefreshSwipeMenuDemo.gif) <br />
+![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/PullToRefreshSwipeMenuDemo.gif) <br />
 Here are the Screenshots of the listView <br />
 1- PullToRefresh<br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen1.png) <br />
