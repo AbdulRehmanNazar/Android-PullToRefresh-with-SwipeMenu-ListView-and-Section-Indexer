@@ -16,16 +16,16 @@ Utility application that helps developer to get a customized listView which have
 **Demo of the listView**<br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/PullToRefreshSwipeMenuDemo.gif) <br />
 **Screenshots of the listView **<br />
-**1- PullToRefresh**<br />
+**1-PullToRefresh**<br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen1.png) <br />
-**2- Swipe Menu** <br />
+**2-Swipe Menu** <br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen2.png)
 <br />
 
-**3- Section Indexer **<br />
-![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen3.png) <br />
+**3-Section Indexer**<br />
+![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen3.png)<br />
 
-**4- Load More used for Pagination **<br />
+**4-Load More used for Pagination**<br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen4.png) <br />
 **5-Swipe Menu with three items**<br />
 ![Alt text](https://github.com/AbdulRehmanNazar/Android-PullToRefresh-with-SwipeMenu-ListView-and-Section-Indexer/blob/master/raw/screen%205.png) <br />
